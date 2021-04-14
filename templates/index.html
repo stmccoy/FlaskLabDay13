@@ -10,7 +10,7 @@
     <h1>My Order List</h1>
     {% for order in range(length) %}
     <div>
-        <p>order {{ order }}</p>
+        <p><a href="http://127.0.0.1:5000/orders/{{order}}">order {{ order }}</a></p>
     </div>
     {% endfor %}
 </body>
